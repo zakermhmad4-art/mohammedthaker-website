@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102238">
+  <meta name="description" content="Die persönliche Website von Mohammed Thaker Alabdallah.">
+  <title>Mohammed Thaker Alabdallah | Persönliche Website</title>
+  <style>
+    :root{--navy:#102238;--blue:#244b70;--gold:#c8a96a;--ink:#17212b;--muted:#64748b;--paper:#f5f7fa;--white:#fff;--line:#e3e8ef}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.65}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(16,34,56,.97);color:#fff;border-bottom:1px solid rgba(255,255,255,.12)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 0}
+    .brand{font-weight:750;letter-spacing:.02em;text-decoration:none;font-size:1rem}.brand span{color:var(--gold)}
+    nav{display:flex;gap:22px;flex-wrap:wrap}nav a{text-decoration:none;color:#e7edf5;font-size:.92rem}nav a:hover{color:var(--gold)}
+    .hero{background:linear-gradient(125deg,#102238 0%,#1b3b5a 68%,#244b70 100%);color:#fff;padding:94px 0 100px;position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(200,169,106,.28);border-radius:50%;right:-110px;top:-100px;box-shadow:0 0 0 38px rgba(200,169,106,.035),0 0 0 78px rgba(200,169,106,.025)}
+    .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;font-weight:800}
+    h1{font-size:clamp(2.5rem,6vw,5rem);line-height:1.06;letter-spacing:-.045em;max-width:850px;margin:18px 0 22px}
+    .hero p{font-size:1.15rem;max-width:650px;color:#dbe5ef;margin:0 0 32px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border-radius:7px;text-decoration:none;font-weight:750;border:1px solid transparent}
+    .btn-primary{background:var(--gold);color:#102238}.btn-primary:hover{background:#dfc58f}.btn-outline{border-color:rgba(255,255,255,.45);color:#fff}.btn-outline:hover{background:rgba(255,255,255,.08)}
+    section{padding:76px 0}.section-label{color:var(--blue);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800}
+    h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:10px 0 20px;letter-spacing:-.03em}
+    .intro{max-width:700px;color:var(--muted);font-size:1.05rem}
+    .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:start}
+    .info-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px;box-shadow:0 10px 30px rgba(16,34,56,.045)}
+    .info-card h3{margin:0 0 8px}.info-card p{color:var(--muted);margin:0}
+    .facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+    .fact{padding:16px;border-radius:10px;background:#f5f7fa;border:1px solid var(--line)}.fact small{display:block;color:var(--muted);margin-bottom:4px}.fact strong{font-size:.98rem}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;min-height:180px}
+    .icon{display:grid;place-items:center;width:42px;height:42px;border-radius:10px;background:#edf2f7;color:var(--blue);font-weight:900;margin-bottom:18px}
+    .card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}
+    .contact{background:#eaf0f5}.contact-box{display:flex;justify-content:space-between;align-items:center;gap:28px;background:var(--navy);color:#fff;border-radius:16px;padding:34px}.contact-box p{color:#d6e0ea;max-width:600px;margin-bottom:0}
+    footer{background:#0b1828;color:#cbd5e1;padding:25px 0;font-size:.88rem}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    .small-note{font-size:.86rem;color:var(--muted);margin-top:18px}
+    @media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.hero{padding:70px 0}.about-grid,.cards{grid-template-columns:1fr}.contact-box{align-items:flex-start;flex-direction:column}.facts{grid-template-columns:1fr 1fr}section{padding:58px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">MTA<span>.</span></a>
+    <nav aria-label="Hauptnavigation">
+      <a href="#about">Über mich</a>
+      <a href="#interests">Interessen</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Persönliche Website · Deutschland</div>
+      <h1>Mohammed Thaker Alabdallah</h1>
+      <p>Willkommen auf meiner persönlichen Website. Hier finden Sie Informationen über mich, meine Interessen und Möglichkeiten, mit mir in Kontakt zu treten.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#about">Mehr über mich</a>
+        <a class="btn btn-outline" href="#contact">Kontakt</a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="section-label">Über mich</div>
+        <h2>Eine persönliche Seite mit klarem Fokus.</h2>
+        <p class="intro">Diese Website ist mein persönlicher Auftritt im Internet. Sie bietet einen zentralen Ort für Informationen, Projekte und öffentliche Profile.</p>
+        <p>Die Inhalte werden nach und nach ergänzt. Für eine professionelle und vertrauenswürdige Darstellung veröffentliche ich hier nur Informationen und Links, die ich selbst bestätigen möchte.</p>
+      </div>
+      <aside class="info-card">
+        <h3>Profil</h3>
+        <p>Persönliche Website von Mohammed Thaker Alabdallah.</p>
+        <div class="facts">
+          <div class="fact"><small>Name</small><strong>Mohammed Thaker Alabdallah</strong></div>
+          <div class="fact"><small>Standort</small><strong>Deutschland</strong></div>
+          <div class="fact"><small>Website</small><strong>Persönlich</strong></div>
+          <div class="fact"><small>Sprache</small><strong>Deutsch</strong></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <section id="interests" style="background:#fff">
+    <div class="wrap">
+      <div class="section-label">Einblicke</div>
+      <h2>Was Sie hier finden können</h2>
+      <p class="intro">Die Website kann jederzeit um weitere Inhalte ergänzt werden.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">01</div><h3>Über mich</h3><p>Eine kurze Vorstellung und Informationen, die ich öffentlich teilen möchte.</p></article>
+        <article class="card"><div class="icon">02</div><h3>Interessen & Projekte</h3><p>Ein Platz für persönliche Interessen, aktuelle Projekte und ausgewählte Fotos.</p></article>
+        <article class="card"><div class="icon">03</div><h3>Online-Profile</h3><p>Hier können offizielle Social-Media-Profile ergänzt werden, sobald die richtigen Links vorliegen.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="wrap contact-box">
+      <div><div class="eyebrow">Kontakt</div><h2>In Verbindung bleiben.</h2><p>Für Anfragen können Sie die Kontaktmöglichkeit nutzen, die nach Veröffentlichung hier eingetragen wird.</p></div>
+      <a class="btn btn-primary" href="mailto:EMAIL-HIER-EINTRAGEN">E-Mail schreiben</a>
+    </div>
+    <div class="wrap small-note">Vor der Veröffentlichung bitte „EMAIL-HIER-EINTRAGEN“ durch Ihre echte E-Mail-Adresse ersetzen und die Social-Media-Links ergänzen.</div>
+  </section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year">2026</span> Mohammed Thaker Alabdallah</span><span>Persönliche Website · Deutschland</span></div></footer>
+</body>
+</html>
